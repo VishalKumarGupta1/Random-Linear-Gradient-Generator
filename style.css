@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1 rem=10px */
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    height: 45rem;
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2rem;
+    margin: 0 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 3rem 1rem 0rem 1rem;
+}
+
+button {
+    height: 5rem;
+    width: 15rem;
+    border-radius: 3rem;
+    border: none;
+    margin: 5rem 5rem 0rem 5rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+#mybutton1 {
+    background-color: #051937;
+    color: white;
+}
+
+#mybutton2 {
+    background-color: #ddff00;
+    color: black;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.copycode {
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2rem 9rem;
+    padding: 1.8rem 2.5rem;
+    border-radius: 1rem;
+    border-left: .4rem solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+/* start media query for responsive */
+@media(width<565px) {
+    html {
+        font-size: 50%;
+        /* 1 rem=10px */
+    }
+
+    button {
+        height: 4rem;
+        width: 12rem;
+        border-radius: 1rem;
+        margin: 2rem 2rem 1rem 2rem;
+    }
+
+    .copycode {
+        margin: 2rem 5rem;
+        padding: 1.8rem 2.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+/* start media query for responsive */
