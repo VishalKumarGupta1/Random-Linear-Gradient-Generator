@@ -19,6 +19,12 @@
 - CSS
 - JavaScript
 
+
+## Live Demo
+
+Check out the live deployment of Random Linear Gradient Generator here: [Live Demo](https://vishalkumargupta1.github.io/Random-Linear-Gradient-Generator/)
+
+
 ## Contributing
 
 Feel free to fork the repository and submit pull requests. Any contributions to improve the project are welcome!
